@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.container {
+    padding: 0 40px;
+}
+
+.form-box {
+    width: 100%;
+    margin: 2px 0;
+}
+
+.search-form {
+    background-color: rgb(240, 238, 238);
+}
+
+.search-text {
+    font-size: 14px;
+}
+
+.footer-sections {
+    display: flex;
+}
+
+.special-searches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7EE5DA;
+    margin-right: 2px;
+    width: 35%;
+    font-size: 14px;
+}
+
+.info-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #70CCC2;
+    margin-right: 2px;
+    width: 21%;
+    font-size: 12px;
+}
+
+.subscribe-sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    background-color: #62B3AA;
+    width: 44%;
+    font-size: 13px;
+}
+
+.email-input {
+    width: 170px;
+}
+
+.subscribe-controls {
+    display: flex;
+}
+.btn{
+    cursor: pointer;
+}
+.subscribe-btn {
+    margin-right: 10px;
+    width: 80px;
+}
+.copyright{
+    font-size: 12px;
+}
+a {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: rgb(75, 34, 141);
+}
+
+a:hover {
+    color: darkblue
+}
+
